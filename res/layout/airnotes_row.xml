@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_height="30dp" android:layout_width="wrap_content"
+		android:gravity="center|left" android:paddingLeft="10dp">
+		<TextView android:id="@+id/textCode"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="50dp" android:layout_height="wrap_content" />
+		<ImageView android:id="@+id/flagCountry"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" 
+			android:layout_marginLeft="10dp"/>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent" android:layout_height="30dp"
+		android:gravity="center|right" android:paddingRight="10dp">
+		<TextView android:id="@+id/textDay"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_marginLeft="10px" />
+		<TextView android:id="@+id/slash"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:text="@string/slash" />
+		<TextView android:id="@+id/textMonth"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" />
+		<TextView android:id="@+id/slash"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:text="@string/slash" />
+		<TextView android:id="@+id/textYear"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+	</LinearLayout>
+</LinearLayout>

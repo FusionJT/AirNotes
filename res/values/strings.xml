@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AirNotes</string>
+    <string name="no_notes">No se encontraron AirNotes</string>
+    <string name="menu_insert">Añadir AirNote</string>
+    <string name="menu_delete">Borrar AirNote</string>
+    <string name="menu_country_view">Vista por Países</string>
+    <string name="menu_single_view">Volver a vista individual</string>
+    <string name="menu_edit">Editar AirNote</string>
+    <string name="airport_code">Código: </string>
+    <string name="airport_country">País: </string>
+    <string name="airport_day">Día</string>
+    <string name="airport_month">Mes</string>
+    <string name="airport_year">Año</string>
+    <string name="airport_notes">Notas: </string>
+    <string name="confirm">Confirmar</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="bracket_init">(</string>
+    <string name="bracket_end">)</string>
+    <string name="slash">/</string>
+    <string name="dateButton">...</string>
+</resources>

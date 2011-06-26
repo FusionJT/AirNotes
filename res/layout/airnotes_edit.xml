@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="20dp" android:gravity="center">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/airport_code" />
+		<EditText android:id="@+id/airport_code"
+			android:layout_width="60dp" android:layout_height="wrap_content"
+			android:maxLength="3" android:layout_marginLeft="20dp" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/airport_country" 
+			android:layout_marginLeft="20dp"/>
+		<TextView android:id="@+id/airport_country"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp" />
+		<ImageView android:id="@+id/country_flag"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent" android:layout_height="wrap_content" 
+		android:gravity="center">	
+		<TextView android:id="@+id/airport_date"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="date"/>
+		<Button android:id="@+id/airport_date_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/dateButton" />
+	</LinearLayout>
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/airport_notes" />
+	<EditText android:id="@+id/airport_notes"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_weight="1" android:scrollbars="vertical" />
+
+	<Button android:id="@+id/confirm" android:text="@string/confirm"
+		android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+</LinearLayout>
